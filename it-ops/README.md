@@ -6,6 +6,7 @@ The setup will include:
 * EKS cluster with ability to create ingresses that are available from outside
 * Set of SQS instances to be used by the application which would be deployed in EKS
 * RDS Postgresql to be used by the application which would be deployed in EKS
+* Simple "Hello-World" application deployed in the kubernetes (EKS) cluster
 
 You may work using all the tools and reference materials that you usually use. You may use any 3rd party libraries, but please be ready to justify their usage and explain their inner workings. When you're done, zip up your project directory and share it with us.
 
@@ -18,6 +19,7 @@ Please don't spend more than 3-5 hours on this project.
     * Security and data protection
     * Networking and VPC setup
     * Secrets management  
+ * Any "Hello-World" application accepting the internet traffic
 
 ## Expectations
 
@@ -29,3 +31,4 @@ We would like to see:
 ## Questions
 
 If you have any questions, please reach us at [engineering@finbloxapp.com](mailto:engineering@finbloxapp.com)
+
