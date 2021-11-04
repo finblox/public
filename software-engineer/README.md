@@ -7,7 +7,7 @@ You may work using all the tools and reference materials that you usually use. Y
 please be ready to justify their usage and explain their inner workings. When you're done, zip up your project directory
 and share it with us.
 
-Please don't spend more than 3 hours on this project.
+Please don't spend more than 4 hours on this project.
 
 ## Functional requirements
 
@@ -20,7 +20,7 @@ Please don't spend more than 3 hours on this project.
      //other fields you think required here
   } 
   ```
-  * Submit a transaction between transactions for certain amount
+  * Submit a transaction between accounts for certain amount
   ```json5
   {
     "from_account":  "{account_id}",
@@ -57,7 +57,7 @@ Please don't spend more than 3 hours on this project.
 
 We would like to see:
 
-* Idiomatic code and ability to explain code without documenting each line
+* Idiomatic and self-explanatory code without documenting each line
 * Understanding of RDBMs fundamentals and basic principles (ACID, Transactions Isolation Levels, Locks, etc)
 * Idempotency in action and resistance to human/machine errors
 * Testable code with some tests you think will be crucial for the app
