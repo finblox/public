@@ -36,4 +36,4 @@ The design is just for reference.
 
 ## Questions
 
-If you have any questions, please reach us at engineering@finbloxapp.com
+If you have any questions, please reach us at [engineering@finbloxapp.com](mailto:engineering@finbloxapp.com)
