@@ -16,7 +16,7 @@ Please don't spend more than 4 hours on this project.
   ```json5
   {
     "id": "{account_id}", 
-    "balance":  "{amount}",
+    "available_balance":  "{amount}",
      //other fields you think required here
   } 
   ```
@@ -29,13 +29,12 @@ Please don't spend more than 4 hours on this project.
      //other fields you think required here
   } 
   ```
-  * Get all transactions for the given account
+  * Get all records for the given account
   ```json5
   [
     {
       "id": "{transaction_id}",
-      "from_account":  "{account_id}",
-      "to_account":  "{account_id}",
+      "account_id":  "{account_id}",
       "amount": "1.05",
       "created_at": "{datetime|timestamp}"
       //other fields you think required here
